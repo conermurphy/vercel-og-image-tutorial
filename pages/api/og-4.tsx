@@ -58,8 +58,10 @@ export default function handler(req: NextRequest) {
             }}
           />
           <div tw="flex flex-col items-start justify-center ml-5">
-            <h1 tw="text-7xl text-black mb-0">{title}</h1>
-            <p tw="text-3xl text-black mt-0 font-bold">{description}</p>
+            <h1 tw="text-7xl text-black mb-0 bg-white">{title}</h1>
+            <p tw="text-3xl text-black mt-0 font-bold bg-white">
+              {description}
+            </p>
           </div>
         </div>
       ),

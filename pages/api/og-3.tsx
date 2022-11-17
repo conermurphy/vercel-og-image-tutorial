@@ -83,6 +83,7 @@ export default function handler(req: NextRequest) {
                 fontSize: 72,
                 color: 'black',
                 marginBottom: 0,
+                backgroundColor: 'white',
               }}
             >
               {title}
@@ -93,6 +94,7 @@ export default function handler(req: NextRequest) {
                 fontSize: 32,
                 color: 'black',
                 fontWeight: 700,
+                backgroundColor: 'white',
               }}
             >
               {description}

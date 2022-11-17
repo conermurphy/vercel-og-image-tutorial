@@ -46,6 +46,7 @@ export default function () {
               fontSize: 72,
               color: 'black',
               marginBottom: 0,
+              backgroundColor: 'white',
             }}
           >
             Some title
@@ -56,6 +57,7 @@ export default function () {
               fontSize: 32,
               color: 'black',
               fontWeight: 700,
+              backgroundColor: 'white',
             }}
           >
             Some description
